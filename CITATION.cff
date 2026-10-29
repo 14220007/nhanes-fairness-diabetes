@@ -9,7 +9,7 @@ authors:
 version: 1.0.0
 date-released: 2026-10-29
 license: MIT
-repository-code: "https://github.com/USERNAME/nhanes-fairness-diabetes"
+repository-code: "https://github.com/14220007/nhanes-fairness-diabetes"
 keywords:
   - algorithmic fairness
   - undiagnosed diabetes
