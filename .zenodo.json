@@ -1,0 +1,15 @@
+{
+  "title": "Code for: Subgroup miscalibration drives racial and age disparities in machine learning screening for undiagnosed diabetes (NHANES 2011–2020)",
+  "upload_type": "software",
+  "description": "Analysis code and aggregate results for a survey-weighted fairness audit and bias mitigation study of machine learning models for undiagnosed diabetes and dysglycaemia using NHANES 2011–March 2020. Includes data preparation, nested cross-validation with survey-weighted recalibration, Rao–Wu bootstrap confidence intervals, subgroup and intersectional fairness metrics, three mitigation strategies (reweighing, exponentiated gradient, group-specific thresholds) and linear SHAP analysis.",
+  "creators": [
+    {
+      "name": "Rumintarsih, Ade",
+      "affiliation": "Boash University, Bogor, Indonesia",
+      "orcid": "0000-0002-3972-9822"
+    }
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "keywords": ["algorithmic fairness", "undiagnosed diabetes", "machine learning", "NHANES", "calibration", "bias mitigation", "SHAP"]
+}

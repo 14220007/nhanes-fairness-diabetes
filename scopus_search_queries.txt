@@ -1,0 +1,18 @@
+QUERY SCOPUS - Fairness Model Deteksi Diabetes NHANES
+Jalankan di Scopus > Advanced document search. Ekspor hasil (CSV/RIS) ke folder literatur ini,
+beri nama: Q1_fairness_dm.csv, Q2_undiagnosed_nhanes.csv, Q3_mitigasi.csv, Q4_survey_ml.csv
+
+=== Query 1 - inti (fairness + diabetes + ML) ===
+TITLE-ABS-KEY ( ( fairness OR "algorithmic bias" OR "model bias" OR equity OR disparit* OR "subgroup performance" ) AND ( diabet* OR "glycated hemoglobin" OR HbA1c ) AND ( "machine learning" OR "deep learning" OR "artificial intelligence" OR "prediction model" ) ) AND PUBYEAR > 2021 AND ( LIMIT-TO ( DOCTYPE , "ar" ) OR LIMIT-TO ( DOCTYPE , "re" ) ) AND LIMIT-TO ( LANGUAGE , "English" )
+
+=== Query 2 - diabetes belum terdiagnosis + NHANES ===
+TITLE-ABS-KEY ( ( undiagnosed OR unrecognized OR "screening" ) AND diabet* AND ( NHANES OR "National Health and Nutrition Examination Survey" ) AND ( "machine learning" OR "prediction model" OR classifier ) ) AND PUBYEAR > 2021 AND LIMIT-TO ( LANGUAGE , "English" )
+
+=== Query 3 - mitigasi bias pada model kesehatan ===
+TITLE-ABS-KEY ( ( "bias mitigation" OR reweighing OR "equalized odds" OR "equal opportunity" OR "threshold optimization" OR "fairness constraint*" ) AND ( health* OR clinical OR medical ) AND ( "machine learning" OR "artificial intelligence" ) ) AND PUBYEAR > 2021 AND LIMIT-TO ( DOCTYPE , "ar" )
+
+=== Query 4 - ML dengan bobot survei kompleks ===
+TITLE-ABS-KEY ( ( "survey weight*" OR "complex survey" OR "sampling weight*" ) AND ( "machine learning" OR "random forest" OR "gradient boosting" OR "neural network" ) AND ( NHANES OR health ) ) AND PUBYEAR > 2021
+
+=== Tambahan - artikel dari jurnal target (wajib dikutip) ===
+Query 1 + AND SRCTITLE ( "Computers in Biology and Medicine" )

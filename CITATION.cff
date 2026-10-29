@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it as below."
+title: "Code for: Subgroup miscalibration drives racial and age disparities in machine learning screening for undiagnosed diabetes (NHANES 2011–2020)"
+authors:
+  - family-names: Rumintarsih
+    given-names: Ade
+    affiliation: "Boash University, Bogor, Indonesia"
+    orcid: "https://orcid.org/0000-0002-3972-9822"
+version: 1.0.0
+date-released: 2026-10-29
+license: MIT
+repository-code: "https://github.com/USERNAME/nhanes-fairness-diabetes"
+keywords:
+  - algorithmic fairness
+  - undiagnosed diabetes
+  - machine learning
+  - NHANES
+  - calibration
+  - bias mitigation
