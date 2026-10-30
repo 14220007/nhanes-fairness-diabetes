@@ -2,7 +2,7 @@
 
 Code and aggregate results for the manuscript:
 
-> Rumintarsih A. *Subgroup miscalibration drives racial and age disparities in machine learning screening for undiagnosed diabetes: a fairness audit and mitigation study using NHANES 2011–2020.* (under review)
+> Rumintarsih A. *Overall calibration masks racial miscalibration in machine learning screening for undiagnosed diabetes: a survey-weighted fairness audit and mitigation study using NHANES 2011–2020.* (under review)
 
 The study audits four models (logistic regression, random forest, XGBoost, LightGBM) that predict undiagnosed diabetes (HbA1c ≥6.5%) and undiagnosed dysglycaemia (HbA1c ≥5.7%) from eleven non-laboratory predictors. All metrics use NHANES survey weights; 95% confidence intervals come from a Rao–Wu survey bootstrap. Three mitigation strategies are compared: reweighing, exponentiated gradient (Fairlearn) and group-specific thresholds.
 
